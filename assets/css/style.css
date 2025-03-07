@@ -119,6 +119,7 @@ header button {
   padding: 8px;
   font-size: x-small;
   width: 100px;
+  cursor: pointer;
 }
 /* Prima sezione */
 .ordered {
@@ -151,6 +152,7 @@ li p {
 #lowp {
   color: rgba(128, 128, 128, 0.74);
   font-size: 12px;
+  gap: 10px;
 }
 /* sezione articoli / aside */
 #lowp1 {
@@ -172,7 +174,9 @@ li p {
   border-bottom-right-radius: 5px;
   border-style: none;
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
+
 .art {
   display: flex;
   width: 75%;
