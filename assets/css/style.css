@@ -206,7 +206,7 @@ li p {
 .second-article {
   display: flex;
   justify-content: flex-start;
-  align-items: baseline;
+  align-items: anchor-center;
   font-weight: 600;
   font-size: small;
   font-family: "Roboto", sans-serif;
