@@ -34,6 +34,12 @@ h5 {
   padding: 2px;
   display: flex;
 }
+h6 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 5px;
+  padding: 2px;
+}
 p {
   font-size: 1em;
   font-weight: 300;
@@ -173,4 +179,12 @@ li p {
 }
 #articleContainer {
   width: 60%;
+}
+aside {
+  display: flex;
+  width: 35%;
+}
+#container {
+  display: flex;
+  justify-content: space-evenly;
 }
