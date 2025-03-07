@@ -64,6 +64,17 @@ nav {
   align-items: center;
   border-bottom: solid #191919;
   font-family: "Roboto", sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+nav.scrolled {
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+nav.scrolled button {
+  background-color: rgba(12, 113, 12, 0.729);
 }
 li {
   margin: 1em;
@@ -103,6 +114,10 @@ svg {
   height: 100%;
   transform: translate3d(0px, 0px, 0px);
   content-visibility: visible;
+}
+svg:hover {
+  animation: matrix 10s infinite 1s ease-in-out;
+  z-index: 0;
 }
 /* Bottoni header*/
 header button {
@@ -248,4 +263,33 @@ a {
   text-decoration: none;
   color: rgba(159, 159, 159, 0.796);
   font-size: 10px;
+}
+@keyframes matrix {
+  0% {
+    filter: rotate(0deg) brightness(1);
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  25% {
+    filter: rotate(90deg) brightness(1.2);
+    transform: translateY(-2px) scale(1.05);
+    transform: rotate3d(2deg);
+  }
+  50% {
+    filter: rotate(180deg) brightness(0.8);
+    transform: translateY(2px) scale(0.95);
+    opacity: 0.8;
+    transform: rotate3d(8deg);
+  }
+  75% {
+    filter: rotate(270deg) brightness(1.2);
+    transform: translateY(-2px) scale(1.02);
+    transform: rotate3d(2deg);
+  }
+  100% {
+    filter: rotate(360deg) brightness(1);
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    transform: rotate3d(0deg);
+  }
 }
