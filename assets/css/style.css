@@ -39,6 +39,8 @@ h6 {
   font-weight: bold;
   margin: 5px;
   padding: 2px;
+  margin-top: 0;
+  padding-top: 0;
 }
 p {
   font-size: 1em;
@@ -148,8 +150,16 @@ li p {
 }
 #lowp {
   color: rgba(128, 128, 128, 0.74);
+  font-size: 12px;
 }
 /* sezione articoli / aside */
+#lowp1 {
+  color: rgba(128, 128, 128, 0.74);
+  font-size: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: anchor-center;
+}
 .art {
   display: flex;
   width: 75%;
@@ -182,9 +192,42 @@ li p {
 }
 aside {
   display: flex;
-  width: 35%;
+  width: 30%;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
 }
 #container {
   display: flex;
   justify-content: space-evenly;
+}
+#aside-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#aside-div p {
+  font-size: 12px;
+  padding: 5px;
+  border: 0.5px solid rgba(128, 128, 128, 0.493);
+  color: rgba(159, 159, 159, 0.796);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+#contacts {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  border-top: solid rgba(159, 159, 159, 0.7);
+}
+a {
+  text-decoration: none;
+  color: rgba(159, 159, 159, 0.796);
+  font-size: 10px;
 }
