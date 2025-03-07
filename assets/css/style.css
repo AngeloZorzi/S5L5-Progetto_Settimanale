@@ -17,6 +17,16 @@ h4 {
   justify-content: flex-start;
   align-items: anchor-center;
 }
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1em;
+  font-weight: 800;
+  margin: 5px;
+  padding: 2px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: anchor-center;
+}
 h5 {
   font-size: 1.2em;
   font-weight: bold;
@@ -117,7 +127,7 @@ ol {
 p img {
   border-radius: 100%;
   width: 20px;
-  margin-right: 7%;
+  margin-right: 3%;
 }
 li p {
   font-weight: 600;
@@ -130,6 +140,37 @@ li p {
   font-weight: bold;
   color: rgba(128, 128, 128, 0.7);
 }
-.in {
+#lowp {
   color: rgba(128, 128, 128, 0.74);
+}
+/* sezione articoli / aside */
+.art {
+  display: flex;
+  width: 75%;
+  font-family: "Roboto", sans-serif;
+}
+.second-article {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  font-weight: 600;
+  font-size: small;
+  font-family: "Roboto", sans-serif;
+}
+#article-img {
+  width: 115px;
+}
+#article-img img {
+  width: 200px;
+}
+.second-lowp {
+  color: rgba(128, 128, 128, 0.74);
+  font-size: 0.9em;
+  font-weight: 400;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#articleContainer {
+  width: 60%;
 }
