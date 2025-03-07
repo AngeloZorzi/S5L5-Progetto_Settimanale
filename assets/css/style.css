@@ -1,0 +1,43 @@
+/* General */
+/* fonts google family :"Spectral", serif --- family:"Roboto", sans-serif; */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: auto;
+  padding: auto;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+}
+/* Zona Nav  */
+nav {
+  display: flex;
+  background-color: #ffc017;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid #191919;
+}
+li {
+  margin: 1em;
+  list-style-type: none;
+  font-size: small;
+}
+ul {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Bottoni header*/
+header button {
+  border-radius: 20px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: #191919;
+  color: antiquewhite;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
