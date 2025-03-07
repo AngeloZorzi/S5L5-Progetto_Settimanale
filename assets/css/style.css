@@ -266,30 +266,26 @@ a {
 }
 @keyframes matrix {
   0% {
-    filter: rotate(0deg) brightness(1);
-    transform: translateY(0) scale(1);
+    transform: rotate(0deg);
+    transform: scale(0.8);
     opacity: 1;
   }
   25% {
-    filter: rotate(90deg) brightness(1.2);
-    transform: translateY(-2px) scale(1.05);
-    transform: rotate3d(2deg);
+    transform: rotate(10deg);
+    transform: scale(0.9);
   }
   50% {
-    filter: rotate(180deg) brightness(0.8);
-    transform: translateY(2px) scale(0.95);
+    transform: rotate(20deg);
+    transform: scale(0.95);
     opacity: 0.8;
-    transform: rotate3d(8deg);
   }
   75% {
-    filter: rotate(270deg) brightness(1.2);
-    transform: translateY(-2px) scale(1.02);
-    transform: rotate3d(2deg);
+    transform: rotate(10deg);
+    transform: scale(1);
   }
   100% {
-    filter: rotate(360deg) brightness(1);
-    transform: translateY(0) scale(1);
+    transform: rotate(0deg);
+    transform: scale(1.1);
     opacity: 1;
-    transform: rotate3d(0deg);
   }
 }
