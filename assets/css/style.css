@@ -35,8 +35,8 @@ h5 {
   display: flex;
 }
 h6 {
-  font-size: 1em;
-  font-weight: bold;
+  font-size: 9px;
+  font-weight: 500;
   margin: 5px;
   padding: 2px;
   margin-top: 0;
@@ -157,8 +157,21 @@ li p {
   color: rgba(128, 128, 128, 0.74);
   font-size: 12px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: anchor-center;
+  gap: 5px;
+}
+#fake {
+  font-size: 10px;
+  color: rgba(128, 128, 128, 0.74);
+  box-shadow: 2px 2px 5px rgba(176, 176, 176, 0.2);
+  padding: 1px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-style: none;
+  font-family: "Roboto", sans-serif;
 }
 .art {
   display: flex;
@@ -192,7 +205,7 @@ li p {
 }
 aside {
   display: flex;
-  width: 30%;
+  width: 27%;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
 }
@@ -220,6 +233,7 @@ aside {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 #contacts {
+  width: 95%;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
