@@ -68,14 +68,16 @@ nav {
   top: 0;
   z-index: 10;
   transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  gap: 70px;
 }
 nav.scrolled {
   background-color: white;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 nav.scrolled button {
-  background-color: rgba(12, 113, 12, 0.729);
+  background-color: rgba(12, 115, 12, 0.643);
 }
+/* Non ho capito se doveva rimanere sempre visibile o meno, l'ho lasciata così */
 li {
   margin: 1em;
   list-style-type: none;
